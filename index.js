@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const siswaRoutes = require('./routes/siswa'); 
+const siswaRoutes = require('./src/routes/siswa'); 
 const bodyParser = require('body-parser');
 
 // Ubah path sesuai kebutuhan
